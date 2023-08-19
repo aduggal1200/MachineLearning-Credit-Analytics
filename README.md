@@ -28,12 +28,15 @@ A rigorous analysis was conducted to understand data distributions, correlations
 ![Summary Statistics](Visualizations/summary_statistics_2.png)
 
 ![Correlations Matrix ](Visualizations/summary_statistics.png)
+
 *Insights into the statistical distribution of various features in the dataset.*
 
 ![Loan Data Distribution](Visualizations/loan_data_distribution.png) 
+
 *In-depth feature distributions of the loan dataset highlighting patterns and trends.*
 
 ![Mortgage Data Head](Visualizations/mortgage_data_head.png)
+
 *Snapshot of the mortgage dataset, showcasing the granularity of available data.*
 
 ### 2. Predictive Modeling on Loan Data
@@ -42,16 +45,20 @@ Employing state-of-the-art machine learning models, we predicted the likelihood 
 
 - **Logistic Regression**: 
   - Coefficients' Insight
+  
   ![Logistic Regression Coefficients](Visualizations/logistic_coefficients.png)
   
   - ROC Curve Analysis
+  
   ![ROC Curve - Logistic Regression](Visualizations/roc_curve_lr.png)
 
 - **Random Forest Classifier**: 
   - Feature Importance Visualization
+  
   ![Random Forest Feature Importance](Visualizations/rf_importance.png)
   
   - Confusion Matrix
+  
   ![Confusion Matrix](Visualizations/confusion_matrix.png)
 
 ### 3. Quantitative Analysis on Mortgage Data
@@ -62,9 +69,11 @@ The main challenge was transforming continuous FICO scores into categorical buck
 - **Log-Likelihood Based Quantization**: By maximizing a specific log-likelihood function.
 
 ![FICO Score Distribution](Visualizations/fico_distribution.png)
+
 *Distribution of FICO scores in the dataset.*
 
 ![MSE vs Log-Likelihood Comparison](Visualizations/mse_vs_loglikelihood.png)
+
 *A quantitative comparison of MSE and Negative Log-Likelihood across different bucket sizes.*
 
 ## Relevance to Quantitative Trading & Research
