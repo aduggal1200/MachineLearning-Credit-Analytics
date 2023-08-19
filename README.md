@@ -25,7 +25,9 @@ FICO scores, established by the Fair Isaac Corporation, are the cornerstone of c
 
 A rigorous analysis was conducted to understand data distributions, correlations, and outliers.
 
-![Summary Statistics](Visualizations/summary_statistics.png)
+![Summary Statistics](Visualizations/summary_statistics_2.png)
+
+![Correlations Matrix ](Visualizations/summary_statistics.png)
 *Insights into the statistical distribution of various features in the dataset.*
 
 ![Loan Data Distribution](/path_to_image/loan_data_distribution.png) 
