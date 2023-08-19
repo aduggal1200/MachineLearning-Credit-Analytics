@@ -25,6 +25,9 @@ FICO scores, established by the Fair Isaac Corporation, are the cornerstone of c
 
 A rigorous analysis was conducted to understand data distributions, correlations, and outliers.
 
+![Summary Statistics](/path_to_image/summary_statistics.png)
+*Insights into the statistical distribution of various features in the dataset.*
+
 ![Loan Data Distribution](/path_to_image/loan_data_distribution.png) 
 *In-depth feature distributions of the loan dataset highlighting patterns and trends.*
 
@@ -34,15 +37,30 @@ A rigorous analysis was conducted to understand data distributions, correlations
 ### 2. Predictive Modeling on Loan Data
 
 Employing state-of-the-art machine learning models, we predicted the likelihood of loan defaults:
-- **Logistic Regression**: As a foundational model, it provided insights into feature coefficients and their impact on default likelihood.
-- **Random Forest Classifier**: This ensemble technique gave a holistic view of feature importances, vital for quantitative strategies.
+
+- **Logistic Regression**: 
+  - Coefficients' Insight
+  ![Logistic Regression Coefficients](/path_to_image/logistic_coefficients.png)
+  
+  - ROC Curve Analysis
+  ![ROC Curve - Logistic Regression](/path_to_image/roc_curve_lr.png)
+
+- **Random Forest Classifier**: 
+  - Feature Importance Visualization
+  ![Random Forest Feature Importance](/path_to_image/rf_importance.png)
+  
+  - Confusion Matrix
+  ![Confusion Matrix](/path_to_image/confusion_matrix.png)
 
 ### 3. Quantitative Analysis on Mortgage Data
 
 The main challenge was transforming continuous FICO scores into categorical buckets for enhanced modeling and insights.
 
-- **MSE-Based Quantization**: A mathematical approach aimed at minimizing the mean squared error. This technique holds relevance in strategies where prediction accuracy is paramount.
-- **Log-Likelihood Based Quantization**: By maximizing a specific log-likelihood function, this method provided a balance between discretization granularity and default density - crucial for risk-adjusted strategies in trading.
+- **MSE-Based Quantization**: A mathematical approach aimed at minimizing the mean squared error.
+- **Log-Likelihood Based Quantization**: By maximizing a specific log-likelihood function.
+
+![FICO Score Distribution](/path_to_image/fico_distribution.png)
+*Distribution of FICO scores in the dataset.*
 
 ![MSE vs Log-Likelihood Comparison](/path_to_image/mse_vs_loglikelihood.png)
 *A quantitative comparison of MSE and Negative Log-Likelihood across different bucket sizes.*
